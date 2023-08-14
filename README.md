@@ -12,4 +12,6 @@ Popup Information: To enhance user interaction, we added popups to each marker. 
 
 Legend Creation: We created a legend to provide context for the map data. The legend visually represented the depth ranges and their corresponding colors. This helped users understand the meaning behind the marker colors.
 
+![2023-08-14](https://github.com/aliciahlavac/Leaflet_Challenge/assets/127240852/f513e88a-a8a4-42e5-98c6-07b8757468d8)
+
 In summary, we used Leaflet and data from the USGS to build an interactive map that visualizes recent earthquake occurrences. The map allowed users to explore earthquake data by interacting with markers, popups, and a legend, providing insights into the magnitude and depth of these geological events.
