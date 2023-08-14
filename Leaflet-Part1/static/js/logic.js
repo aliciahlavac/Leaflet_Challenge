@@ -56,10 +56,10 @@ function makeFeatures(weeklyData) {
                 weight: 1,
                 opacity: 1,
                 fillOpacity: 0.8
-            }).bindPopup(`<h3>${feature.properties.place}</h3><hr>
-                         <p>Magnitude: ${feature.properties.mag}</p>
-                         <p>Depth: ${feature.geometry.coordinates[2]}</p>
-                         <p>Date: ${new Date(feature.properties.time)}</p>`);
+                }).bindPopup(`<h3>${feature.properties.place}</h3><hr>
+                            <p>Magnitude: ${feature.properties.mag}</p>
+                            <p>Depth: ${feature.geometry.coordinates[2]}</p>
+                            <p>Date: ${new Date(feature.properties.time)}</p>`);
         }
     });
 
