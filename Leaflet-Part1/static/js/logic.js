@@ -12,7 +12,7 @@ let myMap = L.map("map", {
     // Set the initial center of the map
     center: [38.5, -96.00],
     // Set the initial zoom level 
-    zoom: 6,
+    zoom: 5,
 });
 
 // Adding the tile layer to the map
