@@ -66,7 +66,7 @@ function makeFeatures(weeklyData) {
     // Adding the earthquakes layer to the map
     earthquakes.addTo(myMap);
 
-    // Create a legend
+    // Create a legend: I used this website to help me with legends https://www.igismap.com/legend-in-leafletjs-map-with-topojson/
     let legend = L.control({ position: "bottomright" });
     legend.onAdd = function () {
         let div = L.DomUtil.create("div", "info legend"),
